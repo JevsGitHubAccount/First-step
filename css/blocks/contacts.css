@@ -1,0 +1,21 @@
+.contacts {
+  font-style: normal;
+  padding-top: 2px;
+  padding-bottom: -2px;
+}
+
+.contacts__phone {
+  font-size: 21px;
+  font-family: 'GothamPro', Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contacts__phone-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contacts__schedule {
+  text-align: right;
+}

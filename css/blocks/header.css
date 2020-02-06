@@ -1,0 +1,22 @@
+.header {
+  background: #27273e;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo__pic {
+  padding: 13px 0; 
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
+}
+
+.header__col__right {
+justify-content: flex-end;
+text-align: right;
+}

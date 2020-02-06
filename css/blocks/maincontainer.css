@@ -1,0 +1,31 @@
+.main-block .container {
+  display: flex;
+}
+
+.main-block {
+  margin-bottom: 60px;
+}
+
+.container__block {
+  right: 0px;
+  width: 75%;
+}
+
+.maincontent {
+  width: 75%;
+}
+
+.main-block__comments {
+  margin-top: 39px;
+  margin-bottom: 15px;
+}
+
+.main-block__prices {
+  margin-top: 29px;
+  margin-bottom: -8px;
+}
+
+.main-block__comments .sidebar {
+  margin-right: 17px;
+}
+

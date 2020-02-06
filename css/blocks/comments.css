@@ -1,0 +1,23 @@
+.comments .list-view__text,
+.comments .list-view__title,
+.comments .list-view__data {
+  color: #221f1f;
+  font-family: "GothamPro";
+  font-size: 18px;
+}
+
+.comments .list-view__data {
+  font-size: 14px;
+}
+
+.comments>section {
+  padding-bottom: 20px;
+}
+
+.comments__headline {
+  font-family: "GothamPro";
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 44px;
+}

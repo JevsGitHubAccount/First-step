@@ -1,0 +1,86 @@
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: jackInTheBox 3s;
+  -webkit-animation: jackInTheBox 3s;
+}
+
+.container-intro__logo {
+  margin-bottom: 29px;
+}
+
+.container-intro__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-intro__link-act {
+  border: 3px solid #ec1e79;
+  color: #ec1e79;
+  font-family: "GothamPro";
+  font-size: 12px;
+  font-weight: 700;
+  padding: 13px 19px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  display: block;
+}
+
+.container-intro__link-act:hover {
+  background-color: #ec1e79;
+  color: #ffffff;
+  animation-play-state: paused;
+}
+
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    transform: scale(.1) rotate(30deg);
+    transform-origin: center bottom;
+  }
+
+  10% {
+    transform: rotate(-10deg);
+  }
+
+  14% {
+    transform: rotate(.1deg);
+    opacity: 1;
+  }
+
+  to {
+   
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+  }
+
+  10% {
+    -webkit-transform: rotate(-10deg);
+  }
+
+  14% {
+    -webkit-transform: rotate(.1deg);
+    opacity: 1;
+  }
+
+  to { 
+    -webkit-transform: scale(1);
+  }
+}
